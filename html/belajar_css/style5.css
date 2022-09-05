@@ -1,0 +1,77 @@
+p{
+    color: #FF9933;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+body{
+    background-color: rgb(229, 233, 236);
+    /* background-image: url(../images/carnetic.png) ; */
+    background-repeat: no-repeat;
+    background-position: top-right;
+    background-attachment: fixed;
+    margin: 0cm 2cm; /* margin top-button=0cm dan margin left-right=2cm*/
+}
+hr{
+    border-width: 1px;
+    border-color: #990000;
+    border-style: dashed;
+}
+
+/* grouping */
+fieldset,legend{
+    border: red outset 5px;
+}
+legend{
+    padding: 10px;
+}
+
+/* List style */
+ol{
+    list-style-image: url(../images/musik.gif);
+}
+ul{
+    list-style-image: url(../images/nyanyi.gif);
+}
+
+/* Belajar Pseudo Classs */
+div#menu{
+    text-align: center;
+    font-family: ubuntu,calibri,tahoma,jokerman;
+    text-decoration: none;
+    color: maroon;
+    padding:10px 0px;
+}
+
+a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    font-size: 14pt;
+    color: blueviolet;
+    border: 1px solid #FF9933;
+    padding: 5px;
+    background: #ffd700;
+    margin: 0px 10px;
+}
+a.item:hover{
+    text-decoration: none;
+    font-size: 14pt;
+    color: rgb(44, 32, 55);
+    border: 1px solid #FF9933;
+    padding: 5px;
+    background: #958a4c;
+    margin: 0px 10px;
+}
+/* belajar pseudo element */
+p.p3::first-letter{
+    color: red;
+    font-size: 48pt;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    padding-right: 5px;
+}
+p.p3::first-line{
+    color: rgb(231, 100, 100);
+    font-style: italic;
+}
+/* belajar pseudo class, pseudo element, div, class,  */
